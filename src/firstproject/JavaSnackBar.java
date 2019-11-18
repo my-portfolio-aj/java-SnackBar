@@ -73,9 +73,6 @@ package firstproject;
             public void setName(String name){
                 this.name = name;
             }
-            public void setQuantity(int quantity){
-                this.quantity = quantity;
-            }
             public void setCost(double cost){
                 this.cost = cost;
             }

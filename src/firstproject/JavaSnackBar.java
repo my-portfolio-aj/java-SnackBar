@@ -39,6 +39,18 @@ package firstproject;
                 id = initId;
                 name = initName;
             }
+            public void setId(int id){
+                this.id = id;
+            }
+            public void setName(String name){
+                this.name = name;
+            }
+            public int getId(){
+                return id;
+            }
+            public String getName(){
+                return name;
+            }
         }
         public static class Snacks{
             //instance variables
@@ -55,5 +67,37 @@ package firstproject;
                 cost = initCost;
                 vendingMachineId = initVendingMachineId;
             }
+            public void setId(int id){
+                this.id = id;
+            }
+            public void setName(String name){
+                this.name = name;
+            }
+            public void setQuantity(int quantity){
+                this.quantity = quantity;
+            }
+            public void setCost(double cost){
+                this.cost = cost;
+            }
+            public void setVendingMachineId(int vendingMachineId){
+                this.vendingMachineId = vendingMachineId;
+            }
+            public int getId(){
+                return id;
+            }
+            public String getName(){
+                return name;
+            }
+            public int getQuantity(){
+                return quantity;
+            }
+            public double getCost(){
+                return cost;
+            }
+            public int getVendingMachineId(){
+                return vendingMachineId;
+            }
         }
+
+
     }
